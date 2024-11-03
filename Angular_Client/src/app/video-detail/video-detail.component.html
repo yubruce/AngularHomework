@@ -1,0 +1,84 @@
+<form #form="ngForm" autocomplete="off">
+  <input type="hidden" name="ID" [value]="service.formData.id">
+  <div class="form-group">
+  <div class="input-group">
+    <div class="input-group-prepend">
+        <div class="input-group-text bg-white">
+            <i class="fas fa-door-open"></i>          
+        </div>
+     </div>
+        <input name="Name" class="form-control" placeholder="電影名稱"
+          #Name="ngModel"
+           [(ngModel)]="service.formData.title" required >
+   </div>
+   <div class="input-group">
+    <div class="input-group-prepend">
+      <div class="input-group-text bg-white">
+      <i class="fas fa-door-open"></i>          
+     </div>
+    </div>
+        <input name="Starring" class="form-control" placeholder="主演"
+         #Name="ngModel"
+         [(ngModel)]="service.formData.starring" required >
+     </div>
+     <div class="input-group">
+      <div class="input-group-prepend">
+         <div class="input-group-text bg-white">
+            <i class="fas fa-door-open"></i>          
+         </div>
+      </div>
+          <input name="ReleaseDate" class="form-control" placeholder="上映日期"
+           #Name="ngModel"
+            [(ngModel)]="service.formData.releaseDate" required >
+     </div>    
+     <div class="input-group">
+      <div class="input-group-prepend">
+         <div class="input-group-text bg-white">
+            <i class="fas fa-door-open"></i>          
+         </div>
+      </div>
+       <input name="MovieCompany" class="form-control" placeholder="公司"
+          #Name="ngModel"
+          [(ngModel)]="service.formData.movieCompany" required >
+      </div>
+    <div class="input-group">
+        <div class="input-group-prepend">
+           <div class="input-group-text bg-white">
+              <i class="fas fa-door-open"></i>          
+           </div>
+        </div>
+       <textarea name="MoviePlot" class="form-control" cols="10" rows="5" placeholder="劇情"
+         #Name="ngModel"
+         [(ngModel)]="service.formData.moviePlot" ></textarea>
+
+    </div>
+    <div class="form-group"  [class.has-error]="Size.touched && Size.invalid">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text bg-white">
+            <!--https://fontawesome.com/v5.15/icons?d=gallery&m=free-->
+            <!--圖像字形-->
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+        <!--產生Fontawesome搜尋Keyword users下拉式清單-->
+        <select name="Size" class="form-control" required
+          #Size="ngModel" [(ngModel)]="service.formData.type">
+          <option value="-1">--- 請選擇總類 ---</option>
+          <option *ngFor="let cap of this.capacity" [value]="cap.value"
+          [selected]= " (cap.value==Size.value) ? true : false" >{{cap.text}}</option>
+        </select>
+      </div>    
+    </div>
+    <!--放在㇐個row裡使用 投影機checkbox及電視checkbox-->
+   
+      <!--Fontawesome搜尋Keyword Database的傳送鍵-->
+      <div class="form-group">
+        <button class="btn btn-success btn-lg btn-block" type="submit" [disabled]="form.invalid">
+        <i class="fas fa-database"></i> Submit</button>
+      </div>
+
+   </div> 
+</form>
+
+
