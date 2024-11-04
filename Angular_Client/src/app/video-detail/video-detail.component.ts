@@ -26,7 +26,7 @@ export class VideoDetailComponent implements OnInit{
       movieCompany:"",
       starring:"",
       moviePlot:"",
-      type:""
+      type:"0"
 
     };
   }

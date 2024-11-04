@@ -13,10 +13,37 @@ export class VideoListComponent implements OnInit {
   ngOnInit(): void {
     this.service.GetAll();
   }
-
-  populateForm(mr:VideoData){   
-    this.service.formData = Object.assign({}, mr);          
+  //實作List 選取呈現在Detail
+  populateForm(mr:VideoData){
+    this.service.formData = Object.assign({}, mr);
   }
+//4.5
+onInsert(){
+  this.service.formData={
+    id :0,
+    title:"",
+    releaseDate:" / / ",
+    movieCompany:"",
+    starring:"",
+    moviePlot:"",
+    type:"0"
+  };
+}
+ //4.5
+ onDelete(mr:VideoData){
+  if(confirm(`確定刪除 電影:${mr.title} 資料?`))
+  {
+    this.service.deleteMeetingRoom(mr.id)
+    .subscribe({
+      next:(data)=>{
+        this.service.GetAll();
+      },
+      error:(error)=>{
+        console.log(error);
+      },
+    });
+  }
+}
 
 
 }
