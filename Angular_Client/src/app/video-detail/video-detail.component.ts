@@ -10,8 +10,10 @@ import { VideoDataService } from '../shared/video-data.service';
 export class VideoDetailComponent implements OnInit{
   constructor(public service: VideoDataService) { }
   capacity: any[]= [
-    {value:0, text:"電影"},{value:1, text:"劇集"}] 
-  ngOnInit() {       
+    {value:0, text:"請選擇"},
+    {value:1, text:"電影"},
+    {value:2, text:"劇集"}]
+  ngOnInit() {
      this.resetForm();
   }
   resetForm(form?:NgForm){
@@ -24,10 +26,47 @@ export class VideoDetailComponent implements OnInit{
       movieCompany:"",
       starring:"",
       moviePlot:"",
-      type:"0"
-  
+      type:""
+
     };
   }
+
+  //Insert
+  insertRecord(form:NgForm){
+    this.service.postMeetingRoom()
+    .subscribe({
+    next:(data)=>{
+      console.log(data);
+      this.resetForm(form);
+      this.service.GetAll();
+    },
+    error:(error)=>{
+      console.log(error);
+    },
+  });
+}
+//Update
+updateRecord(form:NgForm){
+  this.service.putMeetingRoom()
+  .subscribe({
+    next:(data)=>{
+      this.resetForm(form);
+      this.service.GetAll();
+    },
+    error:(error)=>{
+      console.log(error);
+    },
+  });
+}
+
+//Submit事件判斷執行Insert或Update
+onSubmit(form: NgForm){
+  this.service.formData.type = (this.service.formData.type);
+  if(this.service.formData.id==0)
+    this.insertRecord(form);
+  else
+    this.updateRecord(form);
+}
 
 
 }

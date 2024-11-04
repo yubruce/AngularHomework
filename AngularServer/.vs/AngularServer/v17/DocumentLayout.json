@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\AngularHomeWork\\AngularServer\\",
+  "WorkspaceRootPath": "E:\\AngularCourse\\AngularHomework\\AngularServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\models\\videodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\models\\videodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:models\\videodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\models\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\models\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:models\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|c:\\angularhomework\\angularserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|e:\\angularcourse\\angularhomework\\angularserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{62E9D483-133C-4B80-A1DB-D7CE50C7E874}|AngularServer.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -38,17 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\appsettings.json",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\appsettings.json",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-01T03:20:36.834Z",
               "EditorCaption": ""
@@ -57,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\Properties\\launchSettings.json",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -69,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "EfDbContext.cs",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\Models\\EfDbContext.cs",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Models\\EfDbContext.cs",
               "RelativeDocumentMoniker": "Models\\EfDbContext.cs",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\Models\\EfDbContext.cs",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Models\\EfDbContext.cs",
               "RelativeToolTip": "Models\\EfDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +99,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\Controllers\\MoviesController.cs",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\Controllers\\MoviesController.cs",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Controllers\\MoviesController.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\Program.cs",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\Program.cs",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAACAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T02:19:41.715Z",
               "EditorCaption": ""
@@ -107,9 +127,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,15 +137,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "VideoData.cs",
-              "DocumentMoniker": "C:\\AngularHomeWork\\AngularServer\\Models\\VideoData.cs",
+              "DocumentMoniker": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Models\\VideoData.cs",
               "RelativeDocumentMoniker": "Models\\VideoData.cs",
-              "ToolTip": "C:\\AngularHomeWork\\AngularServer\\Models\\VideoData.cs",
+              "ToolTip": "E:\\AngularCourse\\AngularHomework\\AngularServer\\Models\\VideoData.cs",
               "RelativeToolTip": "Models\\VideoData.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBMAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T02:24:13.438Z"
+              "WhenOpened": "2024-11-01T02:24:13.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1274,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
             }
           ]
         }

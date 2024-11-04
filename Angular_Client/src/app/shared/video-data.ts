@@ -5,5 +5,5 @@ export class VideoData {
    movieCompany!:string;
    starring?:string;
    moviePlot?:string;
-   type!:string;
+   type?:string;
 }
