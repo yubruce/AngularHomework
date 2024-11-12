@@ -11,7 +11,15 @@
         <td (click)="populateForm(mr)">{{mr.id}}</td>
         <td (click)="populateForm(mr)">{{mr.title}}</td>
         <td (click)="populateForm(mr)">{{mr.releaseDate}}</td>
-        <td (click)="populateForm(mr)">{{mr.type}}</td>
+        <td>
+         <!-- (click)="populateForm(mr)">{{mr.type}} -->
+         <p *ngIf="mr.type === '0'" style="color:red;"> 未確定  </p>
+         <p *ngIf="mr.type === '1'" style="color:blue;">電影</p>
+         <p *ngIf="mr.type === '2'" style="color:green;">劇集</p>
+          <!-- <span *ngSwitchDefault style="color:green">
+            未知</span> -->
+
+        </td>
         <td >
           <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(mr)"></i>
 
